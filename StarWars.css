@@ -4,7 +4,11 @@ body, html{
     min-height: 100vh;
     margin: 0px;
   }
-  
+  .audio-button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
   .star-wars-intro {
     background: url("image.jpg") center center;
     background-size: cover;
